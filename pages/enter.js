@@ -1,5 +1,7 @@
-function enter() {
-  return <div></div>;
+export default function EnterPage() {
+  return (
+    <main>
+      <h1>Sign up</h1>
+    </main>
+  );
 }
-
-export default enter;

@@ -1,5 +1,10 @@
 import Head from "next/head";
+import Link from "next/link";
 
 export default function Home() {
-  return <div></div>;
+  return (
+    <main>
+      <h1>Hello</h1>
+    </main>
+  );
 }
